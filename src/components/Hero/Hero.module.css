@@ -1,6 +1,6 @@
-@import '../../vars.css';
+@import "../../vars.css";
 
-.container{
+.container {
   position: relative;
   display: flex;
   align-items: center;
@@ -10,7 +10,7 @@
   margin-left: 10%;
   margin-right: 10%;
 }
-.content{
+.content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -18,7 +18,7 @@
   z-index: 1;
 }
 
-.title{
+.title {
   font-size: 72px;
   font-weight: 900;
   margin-bottom: 33px;
@@ -32,16 +32,16 @@
   -webkit-background-clip: text;
 }
 
-.description{
+.description {
   font-size: 30px;
   font-family: var(--font-robot);
   margin-bottom: 52px;
 }
 
-.contactBtn{
+.contactBtn {
   text-decoration: none;
   background-color: var(--color-primary);
-  color:var(--color-text);
+  color: var(--color-text);
   font-size: 30px;
   font-weight: 600;
   padding: 17px 26px;
@@ -49,7 +49,7 @@
   border-radius: 100px;
 }
 
-.heroImg{
+.heroImg {
   width: 50%;
   z-index: 1;
 
@@ -88,22 +88,22 @@
 }
 
 @keyframes floating {
-  0%{
+  0% {
     transform: translate(0, 0px);
   }
-  50%{
+  50% {
     transform: translate(0, 10px);
   }
-  100%{
+  100% {
     transform: translate(0, -0px);
   }
 }
 
-@media screen and (max-width:830px) {
-  .container{
+@media screen and (max-width: 830px) {
+  .container {
     flex-direction: column-reverse;
   }
-  .content{
+  .content {
     align-items: center;
   }
 }
