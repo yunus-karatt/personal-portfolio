@@ -1,0 +1,34 @@
+[
+  {
+    "title": "E-commerce",
+    "imageSrc": "projects/qg1.png",
+    "description": "This is a project made to learn the latest languages by building an e-commerce.",
+    "skills": ["HBS", "Express", "Node","Mongodb","Razorpay","Firebase"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/yunus-karatt/E-commerce"
+  },
+  {
+    "title": "User Mangement",
+    "imageSrc": "projects/usermng.png",
+    "description": "This is a project made to learn the react and redux toolkit by building an app.",
+    "skills": ["React", "Express", "Node", "Redux Toolkit"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/yunus-karatt/mern-auth"
+  },
+  {
+    "title": "Netflix clone",
+    "imageSrc": "projects/netflix clone 1.png",
+    "description": "This is a project made to learn react and api integration by building Netflix clone.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/yunus-karatt/Netflix"
+  },
+  {
+    "title": "Olx clone",
+    "imageSrc": "projects/olx clone 2.png",
+    "description": "This is a project made to learn react,useContext and Firebase  by building Olx clone.",
+    "skills": ["React", "Express", "Node","Firebase"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/yunus-karatt/olx"
+  }
+]
